@@ -1,0 +1,17 @@
+# Wyniki kompilacji i konfiguracji
+/build/
+/out/
+/cmake-build-*/
+CMakeUserPresets.json
+*.o
+*.obj
+*.exe
+*.pdb
+*.ilk
+
+# Ustawienia lokalne edytorów i systemu
+.vs/
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db

@@ -15,3 +15,14 @@ CMakeUserPresets.json
 .idea/
 .DS_Store
 Thumbs.db
+
+# Materiały uczelniane: bez publicznego udostępniania
+/docs/Podstawy C++_Projekt 1c.pdf
+/docs/Podstawy C++_Założenia do Projektu 1d.pdf
+
+# Sekrety i lokalna konfiguracja
+.env
+.env.*
+!.env.example
+*.cbp.layout
+*.layout

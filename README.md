@@ -1,14 +1,14 @@
 # Kalkulator C++
 
-Projekt zaliczeniowy realizowany przez cztery osoby. Szczegółowe wymagania i zakres zostaną ustalone po otrzymaniu wytycznych.
+Projekt zaliczeniowy AHE z Podstaw Programowania 1 realizowany przez cztery osoby. Docelowy zakres wymaga uzgodnienia.
 
 ## Stan projektu
 
-Repozytorium zawiera szkielet programu, a nie gotowy kalkulator. Ustalenia i otwarte pytania znajdują się w `docs/KONTEKST.md`, a wstępny plan współpracy w `docs/PLAN.md`.
+Repozytorium zawiera szkielet programu, a nie gotowy kalkulator. Ustalenia znajdują się w `docs/KONTEKST.md`, analiza wymagań w `docs/WYMAGANIA.md`, plan pracy w `docs/PLAN.md`, a plan prezentacji w `docs/PREZENTACJA_PLAN.md`. Materiałów PDF nie wolno publicznie udostępniać bez pisemnej zgody autora lub AHE.
 
 ## Uruchomienie
 
-Potrzebne są kompilator C++17 i CMake (wersja 3.16 lub nowsza). Po ich zainstalowaniu:
+Wytyczne wskazują Code::Blocks 20.03; projekt i kompilację w tym środowisku należy jeszcze przygotować i sprawdzić. CMake i C++17 są wstępnym szkieletem, nie wymogiem materiałów. W poprzednim sprawdzeniu konsoli nie wykryto kompilatora ani CMake. Aby zbudować obecny szkielet przy użyciu kompilatora C++17 i CMake 3.16+:
 
 ```bash
 cmake -S . -B build
